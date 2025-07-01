@@ -22,13 +22,11 @@ To build a strong foundation in core Electronics, Programming, and essential ski
 
 This section contains theory + handwritten or markdown notes organized month-wise and week-wise.
 
----
 
 ## 🔬 Simulations
 
 This section includes circuit simulations built using Tinkercad or LTspice with descriptions.
 
----
 
 ## 💡 Projects
 
