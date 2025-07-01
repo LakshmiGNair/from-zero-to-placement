@@ -1,4 +1,4 @@
-#Topic 1: Voltage, Current, Resistance & Ohm’s Law
+# Topic 1: Voltage, Current, Resistance & Ohm’s Law
 
 ---
 
@@ -27,15 +27,8 @@
 ---
 
 ## 📏 Ohm’s Law
-\[
-V = I \times R
-\]
+V = I × R
 
 Derived formulas:
-- \[
-I = \frac{V}{R}
-\]
-- \[
-R = \frac{V}{I}
-\]
-
+I = V / R
+R = V / I
