@@ -31,4 +31,5 @@ V = I × R
 
 Derived formulas:
 I = V / R
+
 R = V / I
