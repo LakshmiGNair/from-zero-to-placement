@@ -16,7 +16,7 @@ To build a strong foundation in core Electronics, Programming, and essential ski
 
 ---
 
-
+## Structure
 
 ## ✍️ Notes
 
