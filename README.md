@@ -21,7 +21,7 @@ To build a strong foundation in core Electronics, Programming, and essential ski
 
 - 📒 [Notes](./Notes/)
   - [July 2025](./Notes/July_2025/)
-    - [Week 1](./Notes/July_2025/Week1/)
+    - [Week_1](./Notes/July_2025/Week_1/)
     - [Week 2](./Notes/July_2025/Week2/)
     - [Week 3](./Notes/July_2025/Week3/)
     - [Week 4](./Notes/July_2025/Week4/)
