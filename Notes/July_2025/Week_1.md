@@ -56,7 +56,7 @@ R = V / I
 
 ## 🔋 Energy (E)
 
--Energy is the **total amount of work done** or **power used over time**.
+- Energy is the **total amount of work done** or **power used over time**.
 
 ### 🔹 Formulas:
 - `E = P × t`  
