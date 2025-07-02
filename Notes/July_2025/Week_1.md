@@ -34,13 +34,14 @@ I = V / R
 
 R = V / I
 
+---
 
 # Topic 2: Power and Energy in Circuits
 
 ## 🔌 Power (P)
 
-> Power is the **rate at which energy is used or transferred**.  
-> It tells you **how fast work is being done** in a circuit.
+- Power is the **rate at which energy is used or transferred**.  
+- It tells you **how fast work is being done** in a circuit.
 
 ### 🔹 Formulas:
 - `P = V × I`  
@@ -55,7 +56,7 @@ R = V / I
 
 ## 🔋 Energy (E)
 
-> Energy is the **total amount of work done** or **power used over time**.
+-Energy is the **total amount of work done** or **power used over time**.
 
 ### 🔹 Formulas:
 - `E = P × t`  
