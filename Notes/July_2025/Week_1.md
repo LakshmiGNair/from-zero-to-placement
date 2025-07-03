@@ -144,14 +144,12 @@ R_total = R_1 + R_2 + R_3 + . . .
  └── R3 ──┘
 
 ### 🔸 Formula:
-\[
-\frac{1}{R_{\text{total}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots
-\]
+General case (for 3 or more resistors):
+1 / R_total = 1 / R1 + 1 / R2 + 1 / R3 + ...
 
-For only 2 resistors:
-\[
-R_{\text{total}} = \frac{R_1 \times R_2}{R_1 + R_2}
-\]
+For exactly 2 resistors:
+R_total = (R1 × R2) / (R1 + R2)
+
 
 ### 🔸 Voltage:
 - **Voltage is the same** across all branches.
