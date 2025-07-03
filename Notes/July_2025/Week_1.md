@@ -168,8 +168,8 @@ R_total = R1 + R2
          = 10 + 20
          = 30 Ω
 ### Example 2 - Parallel
--R1 = 6 Ω
--R2 = 3 Ω
+- R1 = 6 Ω
+- R2 = 3 Ω
 Calculation:
 1 / R_total = 1 / R1 + 1 / R2
             = 1/6 + 1/3
