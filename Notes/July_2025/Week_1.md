@@ -139,9 +139,6 @@ R_total = R_1 + R_2 + R_3 + . . .
 
 - Resistors are connected **side by side**, like lanes on a highway.
 
- ┌── R1 ──┐
- ├── R2 ──┤
- └── R3 ──┘
 
 ### 🔸 Formula:
 General case (for 3 or more resistors):
@@ -166,17 +163,19 @@ R_total = (R1 × R2) / (R1 + R2)
 ### Example 1 — Series:
 - R₁ = 10 Ω  
 - R₂ = 20 Ω  
-\[
-R_{\text{total}} = 10 + 20 = \boxed{30\ \Omega}
-\]
+ Calculation:
+R_total = R1 + R2
+         = 10 + 20
+         = 30 Ω
+### Example 2 - Parallel
+-R1 = 6 Ω
+-R2 = 3 Ω
+Calculation:
+1 / R_total = 1 / R1 + 1 / R2
+            = 1/6 + 1/3
+            = (1 + 2) / 6
+            = 3 / 6
 
-### Example 2 — Parallel:
-- R₁ = 6 Ω  
-- R₂ = 3 Ω  
-\[
-\frac{1}{R_{\text{total}}} = \frac{1}{6} + \frac{1}{3} = \frac{3}{6} \Rightarrow R_{\text{total}} = \boxed{2\ \Omega}
-\]
-
----
+R_total = 6 / 3 = 2 Ω
 
 
