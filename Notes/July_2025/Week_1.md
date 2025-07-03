@@ -121,9 +121,8 @@ R1 ─── R2 ─── R3
 
 
 ### 🔸 Formula:
-\[
-R_{\text{total}} = R_1 + R_2 + R_3 + \ldots
-\]
+R_total = R_1 + R_2 + R_3 + . . .
+
 
 > The total resistance is just the **sum of all resistors**.
 
