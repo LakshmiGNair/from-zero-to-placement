@@ -393,10 +393,10 @@ This means:
 ✅ When this condition is met, current flows through the LED, and it emits light energy. ✨
 
 ### 4.Resistor protects the LED:
--If too much current flows, LED will burn out.
--The resistor “resists” current.
--Using Ohm’s Law `V = IR`, it keeps the current at a safe value for the LED.
--Example: 220Ω resistor limits the current so LED survives.
+- If too much current flows, LED will burn out.
+- The resistor “resists” current.
+- Using Ohm’s Law `V = IR`, it keeps the current at a safe value for the LED.
+- Example: 220Ω resistor limits the current so LED survives.
 
 ---
 
