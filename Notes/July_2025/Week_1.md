@@ -322,7 +322,7 @@ Because it helps us create timing delays in circuits:
 
 ---
 
-# 💡 Day 6: LED + Resistor Circuit Simulation in Tinkercad
+# 💡 Topic 6: LED + Resistor Circuit Simulation in Tinkercad
 
 ## 🔧 Tools Used:
 - Tinkercad (Online circuit simulator)  
@@ -379,27 +379,24 @@ Click the green **“Start Simulation”** button on top.
 
 ## 🧠 Logic Behind the Circuit:
 
-### Battery provides Voltage (V):
+### 1.Battery provides Voltage (V):
 The battery creates a potential difference, which is the push needed to move electrons.
 
-### Electrons start flowing:
+### 2.Electrons start flowing:
 Electrons flow from negative (–) of the battery ➝ through the LED and resistor ➝ back to positive (+).
 
-### LED lights up ONLY if it’s forward-biased:
+### 3.LED lights up ONLY if it’s forward-biased:
 This means:
 - Anode (long leg) connected to +
 - Cathode (short leg) connected to –
 
 ✅ When this condition is met, current flows through the LED, and it emits light energy. ✨
 
-### Resistor protects the LED:
-If too much current flows, LED will burn out.
-
-The resistor “resists” current.
-
-Using Ohm’s Law `V = IR`, it keeps the current at a safe value for the LED.
-
-Example: 220Ω resistor limits the current so LED survives.
+### 4.Resistor protects the LED:
+-If too much current flows, LED will burn out.
+-The resistor “resists” current.
+-Using Ohm’s Law `V = IR`, it keeps the current at a safe value for the LED.
+-Example: 220Ω resistor limits the current so LED survives.
 
 ---
 
