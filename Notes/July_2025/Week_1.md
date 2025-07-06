@@ -177,21 +177,21 @@ R_total = R1 + R2
             = 3 / 6
 
 R_total = 6 / 3 = 2 Ω
+---
+# 📘 Topic 4: Capacitors
 
-# Topic 4: Capacitors
-
-## What is a Capacitor?
+## ⚡What is a Capacitor?
 
 A capacitor is a two-terminal electronic component that stores energy in the form of an electric field.
 
-**Think of it like:**  
+**🪣Think of it like:**  
 A water bucket with a rubber sheet in the middle — one side you push electrons (–ve charge), and the other side loses electrons (+ve charge).  
 The rubber sheet doesn’t let them meet but stores the tension between them.  
 This tension is electrical energy. The more electrons you push, the stronger the electric field.
 
 ---
 
-## Construction
+## 🛠️Construction
 
 A basic capacitor is made of:
 - Two metal plates (conductors)
@@ -201,7 +201,7 @@ A basic capacitor is made of:
 
 ---
 
-## Working
+## 🔄Working
 
 When connected to a voltage source:
 - Electrons are pushed onto one plate (–ve side)
@@ -214,7 +214,7 @@ Once fully charged, the capacitor:
 
 ---
 
-## Formulas
+## 🧮Formulas
 
 - Capacitance: `C = Q / V`  
 - Energy Stored: `E = 1/2 * C * V²`  
@@ -223,19 +223,19 @@ Once fully charged, the capacitor:
 
 ---
 
-## Real-Life Use Cases
+## 🧰Real-Life Use Cases
 
-1. **Power Supply Smoothing** – Stores charge & releases it to keep voltage steady  
-2. **Timing Circuits (555 Timer)** – Charge/discharge of capacitors controls time intervals  
-3. **Motor Starters** – Help motors get initial torque by shifting phase in AC  
-4. **Touchscreens** – Your finger changes the capacitance of the surface  
-5. **Camera Flash** – Stores charge & releases it suddenly for a flash  
-6. **Filtering in Radios** – Blocks DC, allows AC  
-7. **Energy Storage (Supercaps)** – Temporarily store energy. Faster than batteries (used in hybrid cars)
+1. **🔋 Power Supply Smoothing** – Stores charge & releases it to keep voltage steady  
+2. **⏱️ Timing Circuits (555 Timer)** – Charge/discharge of capacitors controls time intervals  
+3. **⚙️ Motor Starters** – Help motors get initial torque by shifting phase in AC  
+4. **📱 Touchscreens** – Your finger changes the capacitance of the surface  
+5. **📸 Camera Flash** – Stores charge & releases it suddenly for a flash  
+6. **📻 Filtering in Radios** – Blocks DC, allows AC  
+7. **🚗 Energy Storage (Supercaps)** – Temporarily store energy. Faster than batteries (used in hybrid cars)
 
 ---
 
-## Questions
+## ❓Questions
 
 ### 1. Does current flow through a capacitor?
 
@@ -267,9 +267,9 @@ Batteries are slow (energy over time), but capacitors **instantly** release stor
 
 ---
 
-# Topic 5: RC Time Constant
+# 📘 Topic 5: RC Time Constant
 
-## What is RC Time Constant?
+## ⏳What is RC Time Constant?
 
 The RC time constant (symbol: `τ`, tau) tells how fast a capacitor charges or discharges in a circuit with a resistor and capacitor.
 
@@ -284,7 +284,7 @@ So it takes about **5 time constants** to be fully charged.
 
 ---
 
-## Charging a Capacitor
+## 🔌 Charging a Capacitor
 
 | Time      | Charge Level |
 |-----------|--------------|
@@ -295,7 +295,7 @@ So it takes about **5 time constants** to be fully charged.
 
 ---
 
-## Discharging a Capacitor
+## 🔋 Discharging a Capacitor
 
 | Time      | Charge Left |
 |-----------|-------------|
@@ -306,7 +306,7 @@ So it takes about **5 time constants** to be fully charged.
 
 ---
 
-## Why Does It Matter?
+## 💡 Why Does It Matter?
 
 Because it helps us create timing delays in circuits:
 
