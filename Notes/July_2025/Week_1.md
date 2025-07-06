@@ -185,9 +185,10 @@ R_total = 6 / 3 = 2 Ω
 
 ## ⚡What is a Capacitor?
 
-A capacitor is a two-terminal electronic component that stores energy in the form of an electric field.
+A capacitor is a **two-terminal electronic component that stores energy in the form of an electric field.**
 
 **🪣Think of it like:**  
+
 A water bucket with a rubber sheet in the middle — one side you push electrons (–ve charge), and the other side loses electrons (+ve charge).  
 The rubber sheet doesn’t let them meet but stores the tension between them.  
 This tension is electrical energy. The more electrons you push, the stronger the electric field.
