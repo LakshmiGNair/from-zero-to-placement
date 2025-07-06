@@ -177,7 +177,10 @@ R_total = R1 + R2
             = 3 / 6
 
 R_total = 6 / 3 = 2 Ω
+
 ---
+
+
 # 📘 Topic 4: Capacitors
 
 ## ⚡What is a Capacitor?
