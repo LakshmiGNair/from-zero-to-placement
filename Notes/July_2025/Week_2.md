@@ -1,4 +1,4 @@
-## Topic 1: Inductors
+# Topic 1: Inductors
 
 ### 📘 **What is an Inductor?**
 
