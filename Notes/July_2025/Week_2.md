@@ -1,6 +1,6 @@
 # Topic 1: Inductors
 
-### 📘 **What is an Inductor?**
+## 📘 **What is an Inductor?**
 
 An **inductor** is a passive electronic component that **stores energy in a magnetic field** when electric current flows through it.
 
@@ -9,7 +9,7 @@ An **inductor** is a passive electronic component that **stores energy in a magn
 
 ---
 
-### ⚡️ **Basic Principle**
+## ⚡️ **Basic Principle**
 
 > **When current through an inductor changes, it resists the change by inducing a voltage (EMF) in the opposite direction.**
 
@@ -17,7 +17,7 @@ This is called **self-inductance**, and it's governed by **Lenz’s Law** and **
 
 ---
 
-### **Lenz's Law** 🔁
+## **Lenz's Law** 🔁
 
 
 > *The direction of the induced current is such that it opposes the change in magnetic flux that produced it.*
@@ -30,13 +30,13 @@ This is called **self-inductance**, and it's governed by **Lenz’s Law** and **
 * If the magnetic field **decreases**, the induced current will try to **maintain it** by producing a field in the same direction.
 
 ---
-### **Faraday's Law of Electromagnetic Induction** ⚡
+## **Faraday's Law of Electromagnetic Induction** ⚡
 
 > *Whenever there is a change in magnetic flux linked with a circuit, an electromotive force (EMF) is induced. The magnitude of this EMF is directly proportional to the rate of change of the magnetic flux.*
 
 ---
 
-### 🔧 **Inductor Formula**
+## 🔧 **Inductor Formula**
 
 The voltage across an inductor:
 
@@ -50,7 +50,7 @@ $$
 
 ---
 
-### 🧠 **Key Concepts to Remember**
+## 🧠 **Key Concepts to Remember**
 
 | Concept            | Description                                 |
 | ------------------ | ------------------------------------------- |
@@ -61,7 +61,7 @@ $$
 
 ---
 
-### 🔁 **Inductor Behavior in Circuits**
+## 🔁 **Inductor Behavior in Circuits**
 
 | Condition           | Inductor Behavior                                        |
 | ------------------- | -------------------------------------------------------- |
@@ -74,9 +74,9 @@ $$
 
 ---
 
-### 🔄 **RL Circuit Basics – What is Happening Here?**
+## 🔄 **RL Circuit Basics – What is Happening Here?**
 
-#### 📈 CHARGING Equation:
+## 📈 CHARGING Equation:
 
 When you suddenly apply voltage (step input):
 
@@ -93,7 +93,7 @@ Where:
 
 ---
 
-#### 🧠 **What This Really Means**
+### 🧠 **What This Really Means**
 
 Let’s break this down like a story:
 
@@ -121,14 +121,14 @@ Let’s break this down like a story:
 
 ---
 
-#### 🧠 MEMORY TRICK:
+### 🧠 MEMORY TRICK:
 
 * **"1 - e⁻ᵗ/τ" = Slowly rising curve**  
 * It starts at 0 and rises like a water tank filling up.
 
 ---
 
-####  💨 DISCHARGING Equation:
+##  💨 DISCHARGING Equation:
 
 Now suppose you disconnect the battery and just leave the inductor + resistor.
 
@@ -143,7 +143,7 @@ This time:
 
 ---
 
-#### 🧠 FEEL THIS HAPPENING:
+### 🧠 FEEL THIS HAPPENING:
 
 1. At $t = 0$:  
    Current is at its **maximum** (just before disconnecting)
@@ -157,7 +157,7 @@ This time:
 
 ---
 
-#### 🔂 What is This “𝜏 = L / R” Time Constant?
+### 🔂 What is This “𝜏 = L / R” Time Constant?
 
 It's like a **"speed controller"** for how fast the current builds or drops.
 
@@ -172,7 +172,7 @@ You can remember:
 
 ---
 
-## 🧠 One-Line Summary to Burn in Brain:
+### 🧠 One-Line Summary to Burn in Brain:
 
 > ✅ **Charging**: $I(t) = I_{\text{max}}(1 - e^{-t/\tau})$ → slowly rises  
 > ✅ **Discharging**: $I(t) = I_{\text{max}} e^{-t/\tau}$ → slowly falls  
@@ -181,7 +181,7 @@ You can remember:
 ---
 
 
-### 📊 **Frequency Response (AC)**
+## 📊 **Frequency Response (AC)**
 
 * Inductive Reactance:
 
@@ -198,7 +198,7 @@ As **frequency increases**, **inductive reactance increases** — so inductors *
 
 ---
 
-### ⚙️ **Applications of Inductors**
+## ⚙️ **Applications of Inductors**
 
 | Application                  | Role                               |
 | ---------------------------- | ---------------------------------- |
