@@ -210,4 +210,96 @@ As **frequency increases**, **inductive reactance increases** — so inductors *
 
 ---
 
+# Topic 2: DIODES
+
+---
+
+## 🔹 1. What is a Diode?
+
+A **diode** is a two-terminal **semiconductor device** that allows **current to flow in only one direction**.
+
+* **Symbol**: ![Diode Symbol](https://upload.wikimedia.org/wikipedia/commons/0/0a/Diode_symbol.svg)
+* **Terminals**:
+  * **Anode (A)** – Positive side
+  * **Cathode (K)** – Negative side
+
+---
+
+## 🔹 2. How a Diode Works (Basic Principle)
+
+A **PN junction** forms the core of a diode:
+
+* **P-type material** has **holes (positive charge carriers)**
+* **N-type material** has **electrons (negative charge carriers)**
+
+### 🔄 Biasing Conditions
+
+| Bias Type        | Connection         | Result                 |
+| ---------------- | ------------------ | ---------------------- |
+| **Forward Bias** | Anode +, Cathode - | Diode conducts current |
+| **Reverse Bias** | Anode -, Cathode + | Diode blocks current   |
+
+When forward-biased and voltage exceeds the **threshold (≈0.7V for silicon)**, it conducts.
+
+---
+
+## 🔹 3. V-I Characteristics of a Diode
+
+| Region           | Description                                         |
+| ---------------- | --------------------------------------------------- |
+| Forward region   | Current rises exponentially after threshold voltage |
+| Reverse region   | Very little leakage current flows                   |
+| Breakdown region | In Zener diodes, reverse voltage causes conduction  |
+
+---
+
+## 🔹 4. Types of Diodes & Their Uses
+
+| Type                           | Description                                     | Applications                   |
+| ------------------------------ | ----------------------------------------------- | ------------------------------ |
+| **PN Junction Diode**          | Basic diode for rectification                   | AC to DC converters            |
+| **Zener Diode**                | Allows reverse current after breakdown voltage  | Voltage regulation             |
+| **Schottky Diode**             | Low forward voltage drop, fast switching        | High-speed circuits, SMPS      |
+| **Light Emitting Diode (LED)** | Emits light when forward biased                 | Indicators, displays           |
+| **Photodiode**                 | Generates current when exposed to light         | Light sensors, solar cells     |
+| **Tunnel Diode**               | Exhibits negative resistance region             | Microwave oscillators          |
+| **Varactor Diode**             | Acts as a variable capacitor under reverse bias | Frequency tuning in radios     |
+| **Laser Diode**                | Emits coherent light (laser)                    | CD/DVD players, fiber optics   |
+| **PIN Diode**                  | Used for RF switching, high frequency circuits  | RF attenuators, photodetectors |
+
+---
+
+## 🔹 5. Diode Circuits and Applications
+
+### 📦 5.1. Rectifiers (AC to DC Conversion)
+
+* **Half-Wave Rectifier** – Uses 1 diode, passes half AC cycle.
+* **Full-Wave Rectifier** – Uses 2 or 4 diodes (bridge), passes both halves.
+* **Bridge Rectifier** – 4 diodes arranged in a bridge, full-wave output.
+
+### 💡 5.2. Clipping Circuits
+
+* Diodes limit the voltage to a desired level.
+* Used for signal protection and shaping.
+
+### 📉 5.3. Clamping Circuits
+
+* Shift the voltage level of a signal.
+* Used in oscilloscopes and waveform processing.
+
+### 🔁 5.4. Voltage Regulation
+
+* **Zener diodes** maintain a constant voltage across a load.
+* Used in power supplies.
+
+### 📡 5.5. Switching and Logic Gates
+
+* Diodes used in **digital logic gates** (AND, OR).
+* Fast diodes (like Schottky) used in **high-speed switching**.
+
+---
+
+
+
+
 
