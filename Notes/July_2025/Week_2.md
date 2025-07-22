@@ -218,7 +218,6 @@ As **frequency increases**, **inductive reactance increases** — so inductors *
 
 A **diode** is a two-terminal **semiconductor device** that allows **current to flow in only one direction**.
 
-* **Symbol**: ![Diode Symbol](https://upload.wikimedia.org/wikipedia/commons/0/0a/Diode_symbol.svg)
 * **Terminals**:
   * **Anode (A)** – Positive side
   * **Cathode (K)** – Negative side
