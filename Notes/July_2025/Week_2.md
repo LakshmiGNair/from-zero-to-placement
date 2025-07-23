@@ -298,6 +298,93 @@ When forward-biased and voltage exceeds the **threshold (≈0.7V for silicon)**,
 
 ---
 
+# 🔌 Topic 3 : Simulate a Basic LED Circuit with a Diode for Protection in Tinkercad
+
+---
+
+## 🔧 **Objective**
+
+Create a circuit where:
+
+- An **LED** is powered by a **DC source**.
+- A **protection diode** is used to prevent reverse current from damaging the LED.
+
+---
+
+## 🔩 **Components Needed**
+
+You can find all these in **Tinkercad → Circuits → Components**.
+
+| Component                     | Quantity  |
+|------------------------------|-----------|
+| Breadboard (small or half)   | 1         |
+| 9V Battery or DC Power Supply| 1         |
+| LED (any color)              | 1         |
+| Diode (1N4007 or 1N4148)     | 1         |
+| Resistor (220Ω – 330Ω)       | 1         |
+| Wires                        | As needed |
+
+---
+
+## ⚙️ **Steps to Build the Circuit**
+
+### 🟢 1. Power Source
+
+- Use a **9V battery** or a **DC power supply (5V to 9V)**.
+- Connect **positive** to the **red power rail**, and **negative** to the **blue ground rail** on the breadboard.
+
+---
+
+### 🟥 2. Protection Diode (1N4007 or 1N4148)
+
+- Place the **diode in parallel with the LED**, **but reverse-biased**:
+  - **Cathode (stripe side)** to the **positive rail**.
+  - **Anode** to the **negative rail**.
+- This way, it **doesn't conduct during normal operation**, but **protects the LED from reverse voltage**.
+
+---
+
+### 🔴 3. LED and Resistor
+
+- Connect:
+  - **Anode of LED** → **one end of resistor (e.g., 220Ω)**.
+  - **Other end of resistor** → **positive rail**.
+  - **Cathode of LED** → **ground rail**.
+
+---
+
+### 🔌 4. Wiring
+
+- Use wires to make connections between:
+  - Power source → Breadboard rails.
+  - Resistor & LED → Power rail.
+  - LED → Ground.
+  - Diode → Power and ground rails (reverse biased).
+
+---
+
+### ▶️ 5. Simulate
+
+- Click **"Start Simulation"**.
+- You should see the **LED light up** normally.
+- If you **reverse the battery terminals**, the **LED won't burn out** because the **protection diode conducts**, bypassing current away from the LED.
+
+---
+
+## 🧠 Why Use the Diode?
+
+If you **accidentally reverse the polarity** of the power supply, the **protection diode (1N4007)** will **conduct** and prevent **reverse current** from flowing through the LED, which can damage it.
+
+---
+
+## 📋 Component Logic Table
+
+| Component    | Role in Logic                                                               |
+|--------------|------------------------------------------------------------------------------|
+| **Battery**  | Powers the circuit                                                          |
+| **Resistor** | Limits current to safe levels for the LED                                   |
+| **LED**      | Emits light when powered correctly                                          |
+| **Diode**    | Acts as a **safety valve** — blocks reverse current that can damage the LED |
 
 
 
