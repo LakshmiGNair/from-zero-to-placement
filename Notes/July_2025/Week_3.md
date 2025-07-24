@@ -88,14 +88,12 @@ Now measure both and check according to **Ohm’s Law**:
 
 ## 📊 Expected Output (For Equal Resistors)
 
-V 
-out
+V out
 ​
- =V 
-in
+ =V in
 ​
  × 
-R1+R2
+R1 + R2
 R2
 ​
  =9V× 
