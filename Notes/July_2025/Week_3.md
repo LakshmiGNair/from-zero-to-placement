@@ -19,9 +19,9 @@
 ---
 
 ## 🔍 To Measure Current
-Break the wire between **+ve terminal of battery** and the **resistor**.  
-Keep the **multimeter in series**.  
-Connect **red terminal** of the multimeter to the **+ve terminal of the battery** and the **black terminal** of the multimeter to the **resistor**.
+- Break the wire between **+ve terminal of battery** and the **resistor**.  
+- Keep the **multimeter in series**.  
+- Connect **red terminal** of the multimeter to the **+ve terminal of the battery** and the **black terminal** of the multimeter to the **resistor**.
 
 ---
 
