@@ -87,21 +87,9 @@ Now measure both and check according to **Ohm’s Law**:
 ---
 
 ## 📊 Expected Output (For Equal Resistors)
-
-V out
-​
- =V in
-​
- × 
-R1 + R2
-R2
-​
- =9V× 
-1kΩ+1kΩ
-1kΩ
-​
- =4.5V
-
+```
+Vout = Vin × (R2 / (R1 + R2))
+```
 ---
 
 ## 📚 Logic
