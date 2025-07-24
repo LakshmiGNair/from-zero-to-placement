@@ -60,6 +60,53 @@ Now measure both and check according to **Ohm’s Law**:
 - 🔋 **Voltage stays the same** if the battery is constant.  
 - 💡 **LED brightness** also varies with current – **dimmer with more resistance**.
 
+---
+# 🔋 Topic 2 – Build Voltage Divider in Tinkercad
+
+---
+
+## 🧰 Components Required
+- 2️⃣ Resistors  
+- 🧱 Breadboard  
+- 📟 Multimeter  
+- 🔋 Battery  
+
+---
+
+## 🔌 Connections
+- Connect **negative terminal** of battery to **ground** (black rail → -ve rail) and **positive terminal** of battery to **positive rail**.
+- Connect **one resistor’s end** to the **positive rail** and the **other end** of that resistor to the **2nd resistor**.
+- Connect the **other end of the 2nd resistor** to the **negative rail**.
+
+---
+
+## 📏 Measuring Voltage
+- Connect the **black terminal** of the multimeter to the **negative rail**.
+- Connect the **red terminal** of the multimeter to the **point between the two resistors**.
+
+---
+
+## 📊 Expected Output (For Equal Resistors)
+
+\[
+V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
+\]
+
+\[
+= 9V \times \frac{1k\Omega}{2k\Omega} = 4.5V
+\]
+
+---
+
+## 📚 Logic
+
+- The goal of the experiment is to **split or divide** an input voltage into a **lower output voltage** using two resistors.
+- When two resistors are connected in series, the **total input voltage** is divided between them **proportionally to their resistances**.
+- The voltage at the point between the two resistors is given by:
+
+\[
+V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
+\]
 
 
 
