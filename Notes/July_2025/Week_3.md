@@ -89,6 +89,25 @@ Now measure both and check according to **Ohm’s Law**:
 ## 📊 Expected Output (For Equal Resistors)
 ```
 Vout = Vin × (R2 / (R1 + R2))
+
+
+Where:
+- **Vin**: Input voltage
+- **R1**: Resistor connected to Vin
+- **R2**: Resistor connected to Ground
+- **Vout**: Output voltage (at the junction of R1 and R2)
+
+
+Let’s say:
+
+- `Vin = 9V`
+- `R1 = 1kΩ`
+- `R2 = 1kΩ`
+
+Vout = 9V × (1kΩ / (1kΩ + 1kΩ))
+= 9V × (1 / 2)
+= 4.5V
+
 ```
 ---
 
@@ -97,12 +116,10 @@ Vout = Vin × (R2 / (R1 + R2))
 - The goal of the experiment is to **split or divide** an input voltage into a **lower output voltage** using two resistors.
 - When two resistors are connected in series, the **total input voltage** is divided between them **proportionally to their resistances**.
 - The voltage at the point between the two resistors is given by:
-
-\[
-V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-\]
-
-
+```
+Vout = Vin × (R2 / (R1 + R2))
+```
+---
 
 
 
