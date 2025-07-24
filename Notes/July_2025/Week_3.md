@@ -88,13 +88,21 @@ Now measure both and check according to **Ohm’s Law**:
 
 ## 📊 Expected Output (For Equal Resistors)
 
-\[
-V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-\]
-
-\[
-= 9V \times \frac{1k\Omega}{2k\Omega} = 4.5V
-\]
+V 
+out
+​
+ =V 
+in
+​
+ × 
+R1+R2
+R2
+​
+ =9V× 
+1kΩ+1kΩ
+1kΩ
+​
+ =4.5V
 
 ---
 
