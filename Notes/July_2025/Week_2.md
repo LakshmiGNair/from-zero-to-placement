@@ -560,5 +560,83 @@ Simulate a **transistor switching circuit** that turns an **LED on/off** using a
 
 ---
 
+# 🎛️Topic 6 : Op-Amps (Operational Amplifiers) – A Very Basic Overview
+
+---
+
+## 🧠 What is an Op-Amp?
+
+An **op-amp** is a type of **integrated circuit (IC)** used to **amplify** voltage signals. It’s one of the most common building blocks in analog electronics.
+
+---
+
+## 🧱 Op-Amp Has 5 Key Pins (in basic form)
+
+| Pin Name           | Function                                |
+| ------------------ | --------------------------------------- |
+| V+ (non-inverting) | Input where signal goes in (+ terminal) |
+| V− (inverting)     | Input where signal goes in (− terminal) |
+| Output             | Gives the amplified signal              |
+| Vcc (+V)           | Positive power supply                   |
+| Vee (−V or GND)    | Negative power supply or ground         |
+
+---
+
+## ➕➖ What Does It Do?
+
+It **compares two input voltages** (V+ and V−) and **outputs a voltage based on the difference**:
+```
+V_out = A(V+ - V−)
+```
+
+- `A` is a **huge number** (gain), usually 10,000 or more.
+- This means **a small voltage difference** can cause a **large output swing**.
+
+---
+
+## 🔁 Two Common Modes of Operation
+
+### 1. **Open-Loop Mode (No feedback)**
+
+- Used in **comparators**.
+- Output jumps to either max positive or max negative voltage depending on which input is higher.
+
+### 2. **Closed-Loop Mode (With feedback)**
+
+- Used in **amplifiers**, **filters**, etc.
+- Feedback keeps the output stable and controlled.
+
+---
+
+## 🔄 Types of Op-Amp Circuits
+
+| Type                          | Purpose                             |
+| ----------------------------- | ----------------------------------- |
+| **Inverting Amplifier**       | Flips & amplifies the input signal  |
+| **Non-inverting Amplifier**   | Amplifies without flipping          |
+| **Voltage Follower (Buffer)** | Copies the input exactly (gain = 1) |
+| **Comparator**                | Compares two voltages               |
+| **Integrator/Differentiator** | Used in analog computation          |
+
+---
+
+## ⚡ Where Are Op-Amps Used?
+
+- Audio amplifiers  
+- Signal conditioning  
+- Filters (low pass, high pass)  
+- Voltage comparators  
+- Oscillators and waveform generators  
+
+---
+
+## 🎯 Popular Op-Amp IC Example
+
+- **LM741** – A classic, general-purpose op-amp.
+
+---
+
+
+
 
 
