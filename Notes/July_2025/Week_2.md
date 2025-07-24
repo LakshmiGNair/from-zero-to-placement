@@ -485,6 +485,80 @@ There are **two types**:
 
 ---
 
+# 🔌Topic 5 : Simulate a Transistor as a Switch in Tinkercad
+
+---
+
+## 🔧 **Objective**
+
+Simulate a **transistor switching circuit** that turns an **LED on/off** using a **button**.
+
+---
+
+## 🔩 **Components Needed**
+
+| Component                       | Quantity  |
+| ------------------------------- | --------- |
+| NPN Transistor (e.g., 2N2222)   | 1         |
+| LED                             | 1         |
+| Resistors (220Ω, 1kΩ)           | 2         |
+| Pushbutton                      | 1         |
+| Power Supply (9V battery or 5V) | 1         |
+| Breadboard                      | 1         |
+| Jumper Wires                    | As needed |
+
+---
+
+## 🔁 **Circuit Logic**
+
+- The **transistor (NPN)** acts as an **electronic switch**.
+- When the **button is pressed**, a small **base current** flows into the transistor.
+- This turns the transistor **ON**, allowing current to flow from **collector to emitter**, lighting the **LED**.
+- When the button is **released**, base current stops and **LED turns OFF**.
+
+---
+
+## 🧰 **Wiring Instructions**
+
+### 1. **Transistor Placement**
+
+- Place the **NPN transistor** (e.g., 2N2222) on the breadboard.
+- Identify its pins: **Collector (C)**, **Base (B)**, **Emitter (E)**.
+
+### 2. **Connect Load (LED)**
+
+- Connect the **LED's anode** to the **+ terminal** of power supply (through a **220Ω resistor**).
+- Connect the **LED's cathode** to the **Collector** of the transistor.
+
+### 3. **Connect Emitter**
+
+- Connect the **Emitter** of the transistor directly to **GND**.
+
+### 4. **Base Resistor and Button**
+
+- Connect a **1kΩ resistor** between the **Base** and **one side of the pushbutton**.
+- Connect the **other side of the pushbutton** to **+V**.
+- *(Optional)* Add a **10kΩ pull-down resistor** between the **Base** and **GND** to keep it OFF when the button is not pressed.
+
+---
+
+## ✅ **Expected Behavior**
+
+- Pressing the **pushbutton** allows current into the **Base**, turning the transistor **ON**.
+- The LED **lights up**.
+- Releasing the button **turns OFF** the transistor, and the **LED goes OFF**.
+
+---
+
+## 🧪 **Simulate on Tinkercad**
+
+1. Go to [Tinkercad Circuits](https://www.tinkercad.com/circuits).
+2. Click **“Create New Circuit.”**
+3. Add all components and connect them as above.
+4. Press **“Start Simulation.”**
+5. Click the button to watch the LED respond.
+
+---
 
 
 
